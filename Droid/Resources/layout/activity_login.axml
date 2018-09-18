@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+    android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+    android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+    android:background="#ffffffff">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="@dimen/abc_action_bar_default_padding_end_material"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material">
+        <ImageView
+            android:src="@drawable/ypf_white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="@dimen/abc_alert_dialog_button_bar_height" />
+    </LinearLayout>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputEditText2"
+        android:tag="I"
+        android:hint="Ingrese contrasenia"
+        android:textColorHint="#ff000000" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textInputEditText1"
+        android:layout_gravity="center_vertical"
+        android:hint="Ingrese usuario"
+        android:textColorHint="#ff000000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textColorHighlight="#ff334ee4"
+        android:textColor="#ffffffff"
+        android:textColorHint="#fff53f3f"
+        android:shadowColor="#ffee3d3d"
+        android:text="Ingresar"
+        android:autoText="false"
+        android:drawableTint="#ffe71c1c"
+        android:backgroundTint="#ff3337f4"
+        android:paddingTop="@dimen/abc_action_bar_default_padding_end_material"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>
