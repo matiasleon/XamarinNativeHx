@@ -175,6 +175,7 @@
     <AndroidResource Include="Resources\layout\activity_login.axml" />
     <AndroidResource Include="Resources\drawable-hdpi\ypf_white.png" />
     <AndroidResource Include="Resources\drawable\ypf_white.png" />
+    <AndroidResource Include="Resources\drawable\main_button.xml" />
   </ItemGroup>
   <Import Project="..\HexactaXamarinNative\HexactaXamarinNative.projitems" Label="Shared" Condition="Exists('..\HexactaXamarinNative\HexactaXamarinNative.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
